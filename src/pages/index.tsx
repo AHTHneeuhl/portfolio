@@ -1,7 +1,13 @@
+import { Hero, Navbar } from "@/components";
+import { Fragment } from "react";
+
 export default function Home() {
   return (
-    <h1 className="text-green-700 text-3xl font-bold text-center">
-      Hello world!
-    </h1>
+    <Fragment>
+      <main>
+        <Navbar />
+        <Hero />
+      </main>
+    </Fragment>
   );
 }
