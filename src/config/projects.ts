@@ -21,3 +21,5 @@ const projects = [
     teckStack: ["JavaScript", "HTML", "CSS"],
   },
 ];
+
+export default projects;
