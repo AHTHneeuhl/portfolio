@@ -1,4 +1,4 @@
-import { Hero, Navbar } from "@/components";
+import { Experience, Hero, Navbar, Projects } from "@/components";
 import { Fragment } from "react";
 
 export default function Home() {
@@ -7,6 +7,8 @@ export default function Home() {
       <main>
         <Navbar />
         <Hero />
+        <Experience />
+        <Projects />
       </main>
     </Fragment>
   );
