@@ -3,7 +3,7 @@ const experience = [
     title: "UI Software Engineer",
     company: "Null Innovation",
     location: "Ahmedabad, Gujrat, India",
-    period: "Jan 2022 - April 2023",
+    period: "Jan 2022 to April 2023",
     skills: [
       "NextJs",
       "React",
@@ -20,14 +20,14 @@ const experience = [
     title: "Angular Intern",
     company: "Nwints Pvt. Ltd.",
     location: "Delhi, India",
-    period: "Dec 2021 - Jan 2022",
+    period: "Dec 2021 to Jan 2022",
     skills: ["Angular", "ExpressJS", "Bootstrap"],
   },
   {
     title: "Trainee",
     company: "Innolabz Ventures",
     location: "Noida, Uttar Pradesh, India",
-    period: "Aug 2021 - Oct 2021",
+    period: "Aug 2021 to Oct 2021",
     skills: ["Flutter"],
   },
 ];
