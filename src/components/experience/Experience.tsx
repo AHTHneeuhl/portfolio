@@ -1,5 +1,5 @@
 import experiences from "@/config/experience";
-import Organization from "./experience/Organization";
+import Organization from "./Organization";
 
 const Experience: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
       <h3 className="text-xl font-semibold text-neutral-900 self-start uppercase tracking-widest cursor-pointer hover:border-b-neutral-300 hover:border-b-2 transition">
         Experience
       </h3>
-      <div>
+      <div className="flex flex-col gap-6">
         {experiences.map(({ company, location, period, skills, title }) => (
           <Organization
             key={company}

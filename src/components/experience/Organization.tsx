@@ -16,7 +16,7 @@ const Organization: React.FC<TProps> = ({
   skills,
 }) => {
   return (
-    <div className="mb-6 w-full">
+    <div className="w-[720px]">
       <h4 className="text-lg font-medium text-neutral-800">
         {title} <span className="text-neutral-500 text-sm">at</span> {company}{" "}
       </h4>

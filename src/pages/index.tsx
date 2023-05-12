@@ -1,4 +1,6 @@
-import { Experience, Hero, Navbar, Projects } from "@/components";
+import { Hero, Navbar } from "@/components";
+import { Experience } from "@/components/experience";
+import { Projects } from "@/components/projects";
 import { Skills } from "@/components/skills";
 import Head from "next/head";
 import { Fragment } from "react";
