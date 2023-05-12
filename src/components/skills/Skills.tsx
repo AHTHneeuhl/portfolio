@@ -7,7 +7,7 @@ const Skills: React.FC = () => {
       <h3 className="text-xl font-semibold text-neutral-900 self-start uppercase tracking-widest cursor-pointer hover:border-b-neutral-300 hover:border-b-2 transition">
         Skills
       </h3>
-      <div className="flex flex-row gap-12 items-start">
+      <div className="flex flex-row gap-12 items-start w-[672px]">
         <Skill title="Languages" list={skills.languages} />
         <Skill title="Frameworks" list={skills.frameworks} />
         <Skill title="Tools" list={skills.tools} />
