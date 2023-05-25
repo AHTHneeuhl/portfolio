@@ -1,3 +1,5 @@
+"use client";
+
 import experiences from "@/config/experience";
 import Organization from "./Organization";
 

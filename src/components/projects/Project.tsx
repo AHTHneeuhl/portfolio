@@ -1,3 +1,5 @@
+"use client";
+
 import { BsGithub } from "react-icons/bs";
 
 type TProps = {
