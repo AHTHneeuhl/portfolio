@@ -1,3 +1,5 @@
+"use client";
+
 type TProps = {
   title: string;
   list: string[];

@@ -1,3 +1,5 @@
+"use client";
+
 import skills from "@/config/skills";
 import Skill from "./Skill";
 

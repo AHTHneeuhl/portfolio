@@ -1,3 +1,5 @@
+"use client";
+
 import projects from "@/config/projects";
 import Project from "./Project";
 
