@@ -1,4 +1,4 @@
-const experience = [
+const experiences = [
   {
     title: "UI Software Engineer",
     company: "Null Innovation",
@@ -32,4 +32,4 @@ const experience = [
   },
 ];
 
-export default experience;
+export default experiences;
