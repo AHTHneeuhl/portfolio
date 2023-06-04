@@ -4,7 +4,7 @@ import { BsGithub, BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";
 
 const Hero: React.FC = () => {
   return (
-    <section className="flex flex-col items-center justify-start pt-40 pb-48 bg-neutral-50 text-center">
+    <section className="flex flex-col items-center justify-start pt-40 pb-48 text-center">
       <h4 className="font-medium text-xl text-neutral-700 leading-10 mb-6">
         Hi, there 👋
       </h4>
