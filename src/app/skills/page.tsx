@@ -5,8 +5,8 @@ import Skill from "./Skill";
 
 const Skills: React.FC = () => {
   return (
-    <section className="flex flex-row justify-center gap-24 bg-neutral-50 py-16">
-      <h3 className="text-xl font-semibold text-neutral-900 self-start uppercase tracking-widest cursor-pointer hover:border-b-neutral-300 hover:border-b-2 transition">
+    <section className="flex flex-row justify-center gap-24 py-16">
+      <h3 className="text-xl font-semibold  self-start uppercase tracking-widest cursor-pointer hover:border-b-neutral-300 hover:border-b-2 transition">
         Skills
       </h3>
       <div className="flex flex-row gap-12 items-start w-[672px]">
