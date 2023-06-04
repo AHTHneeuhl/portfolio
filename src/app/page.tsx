@@ -1,7 +1,5 @@
-import { Hero, Navbar } from "@/components";
-import { Experience } from "@/components/experience";
-import { Projects } from "@/components/projects";
-import { Skills } from "@/components/skills";
+import { Hero } from "@/components";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,11 +10,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main>
-      <Navbar />
       <Hero />
-      <Experience />
-      <Skills />
-      <Projects />
     </main>
   );
 }
