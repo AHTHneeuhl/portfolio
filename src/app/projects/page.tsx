@@ -3,8 +3,8 @@ import Project from "./Project";
 
 const Projects: React.FC = () => {
   return (
-    <div className="py-16">
-      <div className="flex flex-col gap-6 h-full justify-center items-center">
+    <section className="h-screen grid place-items-center">
+      <div className="flex flex-col gap-6 justify-center items-center">
         {projects.map(({ name, description, source, techStack, picture }) => (
           <Project
             key={name}
@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
