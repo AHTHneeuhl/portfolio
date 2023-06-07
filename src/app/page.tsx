@@ -1,4 +1,4 @@
-import { Hero } from "@/components";
+import { Home } from "@/components";
 
 import { Metadata } from "next";
 
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main>
-      <Hero />
+      <Home />
     </main>
   );
 }

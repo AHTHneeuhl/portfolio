@@ -1,2 +1,2 @@
-export { default as Hero } from "./Hero";
-export { default as Sidebar } from "./Sidebar";
+export { default as Home } from "./home";
+export { default as Navigation } from "./navigation";
