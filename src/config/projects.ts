@@ -1,4 +1,17 @@
+import airbnb from "public/projects/airbnb.png";
+import social from "public/projects/airbnb.png";
+import graphCMS from "public/projects/graph-cms.png";
+import trello from "public/projects/trello.png";
+
 const projects = [
+  {
+    name: "Airbnb Clone App",
+    description:
+      "Full Stack Airbnb clone app build with MongoDB, Prisma, Tailwind and NextJs",
+    source: "https://github.com/AHTHneeuhl/Airbnb",
+    techStack: ["TypeScript", "NextJs", "Zustand", "Prisma", "MongoDB"],
+    picture: airbnb,
+  },
   {
     name: "Social Media MERN App",
     description:
@@ -13,9 +26,10 @@ const projects = [
       "ExpressJs",
       "MongoDB",
     ],
+    picture: social,
   },
   {
-    name: "Blog App",
+    name: "GraphCMS Blog App",
     description: "A Blog Web App using GraphCMS, NextJS, and GraphQL",
     source: "https://github.com/AHTHneeuhl/cms-blog",
     techStack: [
@@ -26,12 +40,14 @@ const projects = [
       "Sass",
       "NextJS",
     ],
+    picture: graphCMS,
   },
   {
     name: "Trello Clone",
     description: "Trello Clone with FullStack React with TypeScript",
     source: "https://github.com/AHTHneeuhl/trello-clone",
     techStack: ["TypeScript", "React", "Styled-components", "React-DnD"],
+    picture: trello,
   },
 ];
 
