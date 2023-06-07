@@ -3,21 +3,21 @@ import Organization from "./Organization";
 
 const Experiences: React.FC = () => {
   return (
-    <section className="flex flex-row justify-center gap-24 py-16">
-      <h3 className="text-xl font-semibold text-neutral-900 self-start uppercase tracking-widest cursor-pointer hover:border-b-neutral-300 hover:border-b-2 transition">
-        Experiences
-      </h3>
+    <section className="h-screen grid place-items-center">
       <div className="flex flex-col gap-6">
-        {experiences.map(({ company, location, period, skills, title }) => (
-          <Organization
-            key={company}
-            title={title}
-            skills={skills}
-            company={company}
-            location={location}
-            period={period}
-          />
-        ))}
+        {experiences.map(
+          ({ company, location, period, works, skills, title }) => (
+            <Organization
+              key={company}
+              title={title}
+              skills={skills}
+              works={works}
+              company={company}
+              location={location}
+              period={period}
+            />
+          )
+        )}
       </div>
     </section>
   );
