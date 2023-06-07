@@ -18,7 +18,7 @@ const Organization: React.FC<TProps> = ({
   skills,
 }) => {
   return (
-    <div className="cursor-pointer border border-white hover:border-neutral-200 p-4 rounded-xl">
+    <div className="cursor-pointer bg-white border border-white hover:border-neutral-200 p-4 rounded-xl">
       <h4 className="text-lg font-medium text-neutral-800">
         {title} <span className="text-neutral-500 text-sm">at</span> {company}{" "}
       </h4>
@@ -40,7 +40,7 @@ const Organization: React.FC<TProps> = ({
         {works.map((work) => (
           <li
             key={work}
-            className="text-neutral-600 font-medium text-xs leading-6"
+            className="text-neutral-500 font-medium text-xs leading-5"
           >
             {work}
           </li>
