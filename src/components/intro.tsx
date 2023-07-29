@@ -3,9 +3,11 @@
 import Image from "next/image";
 import { BsGithub, BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";
 
+import { Typography } from "@/components";
+
 const Intro: React.FC = () => {
   return (
-    <nav className="h-screen w-[25vw] fixed top-0 left-0 bg-white grid place-items-center">
+    <nav className="h-screen w-[25vw] fixed top-0 left-0 bg-gradient grid place-items-center">
       <div>
         <Image
           src="https://avatars.githubusercontent.com/u/91504362"
@@ -14,10 +16,12 @@ const Intro: React.FC = () => {
           height={124}
           className="rounded-full object-cover mb-2"
         />
-        <h1 className="font-bold text-3xl">Shubham Patrick</h1>
-        <h3 className="mt-2 text-neutral-500 font-light text-md">
+        <Typography fontSize="lg" fontWeight="semibold">
+          Shubham Patrick
+        </Typography>
+        <Typography fontSize="sm" fontWeight="medium">
           Build beautiful interfaces & experiences
-        </h3>
+        </Typography>
         <div className="flex flex-row items-center justify-end gap-5 mt-5">
           <BsTwitter
             size={20}
