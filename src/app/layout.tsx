@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Intro />
-        <main className="ml-48 px-6">{children}</main>
+        <main className="ml-48 px-6 bg-gradient">{children}</main>
       </body>
     </html>
   );
