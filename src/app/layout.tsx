@@ -23,11 +23,13 @@ export default function RootLayout({
       <body
         className={cn(
           inter.className,
-          "h-screen p-12 bg-gradient-to-b from-primary-500 to-primary-400"
+          "h-screen px-12 bg-gradient-to-b from-primary-500 to-primary-400 flex flex-row justify-between overflow-hidden"
         )}
       >
         <Intro />
-        <main className="ml-48 px-6">{children}</main>
+        <main className="w-[688px] h-screen overflow-auto hide-scrollbar">
+          {children}
+        </main>
       </body>
     </html>
   );
