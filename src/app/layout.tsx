@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Intro } from "@/components";
+import { cn } from "@/lib/utils";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,9 +20,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={cn(
+          inter.className,
+          "h-screen p-12 bg-gradient-to-b from-primary-500 to-primary-400"
+        )}
+      >
         <Intro />
-        <main className="ml-48 px-6 bg-gradient">{children}</main>
+        <main className="ml-48 px-6">{children}</main>
       </body>
     </html>
   );
