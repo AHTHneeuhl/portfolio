@@ -6,7 +6,7 @@ import { AHTHneeuhl, Typography } from "@/components";
 
 const Intro: React.FC = () => {
   return (
-    <nav className="w-[384px] h-full flex flex-col justify-between px-8">
+    <nav className="w-[384px] h-full py-12 flex flex-col justify-between px-8">
       <AHTHneeuhl />
       <div className="flex flex-col gap-3">
         <Image

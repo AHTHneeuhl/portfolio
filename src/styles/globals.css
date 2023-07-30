@@ -15,4 +15,18 @@ body {
       rgba(8, 13, 55, 0.75) 100%
     );
   }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    width: 0.5em;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0.25em;
+  }
+
+  .hide-scrollbar {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE and Edge */
+  }
 }

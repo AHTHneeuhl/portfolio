@@ -1,4 +1,4 @@
-const projects = [
+const works = [
   {
     name: "Airbnb Clone App",
     description:
@@ -11,15 +11,7 @@ const projects = [
     description:
       "Full Stack Social Media Web App with MongoDB, ExpressJs and ReactJs",
     source: "https://github.com/AHTHneeuhl/social-frontend",
-    techStack: [
-      "JavaScript",
-      "React",
-      "Redux Toolkit",
-      "Formik",
-      "Yup",
-      "ExpressJs",
-      "MongoDB",
-    ],
+    techStack: ["JavaScript", "React", "Redux Toolkit", "ExpressJs", "MongoDB"],
   },
   {
     name: "GraphCMS Blog App",
@@ -42,4 +34,4 @@ const projects = [
   },
 ];
 
-export default projects;
+export default works;

@@ -3,13 +3,17 @@ import { Typography } from "@/components";
 type TProps = {
   title: string;
   description: string;
+  link: string;
   techStack: string[];
 };
 
-const Card: React.FC<TProps> = ({ title, description, techStack }) => {
+const Card: React.FC<TProps> = ({ title, description, techStack, link }) => {
   return (
-    <div>
-      <Typography fontSize="md" fontWeight="medium">
+    <div
+      className="flex flex-col gap-4 p-6 cursor-pointer rounded-md hover:bg-gradient-to-t from-primary-300 to-primary-400 transition duration-30"
+      onClick={() => window.open(link)}
+    >
+      <Typography fontSize="md" fontWeight="semibold">
         {title}
       </Typography>
       <Typography fontSize="xs" fontWeight="normal">
