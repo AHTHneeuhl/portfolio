@@ -4,10 +4,10 @@ describe("template spec", () => {
     cy.window().then((win) => {
       cy.stub(win, "open").as("windowOpen");
     });
+    cy.get('[data-cy="logo"]').contains("AHTHneeuhl");
     cy.get('[data-cy="name"]').contains("Shubham Patrick");
-    cy.get('[data-cy="title"]').contains("Frontend Engineer");
     cy.get('[data-cy="description"]').contains(
-      "Build beautiful interfaces & experiences"
+      "Build beautiful user interfaces and experiences"
     );
     cy.get('[data-cy="github-link"]').click();
     cy.get("@windowOpen").should(
