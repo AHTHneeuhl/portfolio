@@ -16,10 +16,10 @@ const Intro: React.FC = () => {
           height={144}
           className="rounded-full object-cover"
         />
-        <Typography fontSize="lg" fontWeight="semibold">
+        <Typography data-cy="name" fontSize="lg" fontWeight="semibold">
           Shubham Patrick
         </Typography>
-        <Typography fontSize="sm" fontWeight="medium">
+        <Typography data-cy="description" fontSize="sm" fontWeight="medium">
           Build beautiful user interfaces and experiences
         </Typography>
         <div className="flex flex-row items-center justify-end gap-3">
@@ -29,6 +29,7 @@ const Intro: React.FC = () => {
             width={48}
             height={48}
             className="cursor-pointer"
+            data-cy="twitter-link"
             onClick={() => window.open("https://twitter.com/ahthneeuhl")}
           />
           <Image
@@ -36,6 +37,7 @@ const Intro: React.FC = () => {
             alt="github"
             width={48}
             height={48}
+            data-cy="github-link"
             className="cursor-pointer"
             onClick={() => window.open("https://github.com/AHTHneeuhl")}
           />
@@ -44,6 +46,7 @@ const Intro: React.FC = () => {
             alt="linkedin"
             width={48}
             height={48}
+            data-cy="linkedin-link"
             className="cursor-pointer"
             onClick={() =>
               window.open("https://www.linkedin.com/in/ahthneeuhl/")
@@ -54,6 +57,7 @@ const Intro: React.FC = () => {
             alt="instagram"
             width={48}
             height={48}
+            data-cy="instagram-link"
             className="cursor-pointer"
             onClick={() => window.open("https://instagram.com/ahthneeuhl/")}
           />

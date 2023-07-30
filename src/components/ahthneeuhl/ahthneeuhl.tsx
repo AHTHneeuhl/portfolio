@@ -6,7 +6,7 @@ type TProps = {
 
 const AHTHneeuhl: React.FC<TProps> = ({ children = "AHTHneeuhl" }) => {
   return (
-    <Typography fontSize="xl" fontWeight="semibold">
+    <Typography data-cy="logo" fontSize="xl" fontWeight="semibold">
       {children}
     </Typography>
   );
