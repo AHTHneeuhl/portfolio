@@ -1,4 +1,4 @@
-import { Home, Works } from "@/components";
+import { Works } from "@/components";
 
 import { Metadata } from "next";
 

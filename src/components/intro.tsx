@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 import { AHTHneeuhl, Typography } from "@/components";
 
@@ -8,7 +9,12 @@ const Intro: React.FC = () => {
   return (
     <nav className="w-[384px] h-full py-12 flex flex-col justify-between px-8">
       <AHTHneeuhl />
-      <div className="flex flex-col gap-3">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.3 }}
+        className="flex flex-col gap-3"
+      >
         <Image
           src="https://avatars.githubusercontent.com/u/91504362"
           alt="Shubham Patrick"
@@ -62,7 +68,7 @@ const Intro: React.FC = () => {
             onClick={() => window.open("https://instagram.com/ahthneeuhl/")}
           />
         </div>
-      </div>
+      </motion.div>
     </nav>
   );
 };
