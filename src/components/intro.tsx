@@ -1,18 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 import { AHTHneeuhl, Typography } from "@/components";
 
-const Intro: React.FC = () => {
+const Intro = () => {
   return (
     <nav className="w-[384px] h-full py-12 flex flex-col justify-between px-8">
       <AHTHneeuhl />
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3 }}
+      <div
+        
         className="flex flex-col gap-3"
       >
         <Image
@@ -68,7 +65,7 @@ const Intro: React.FC = () => {
             onClick={() => window.open("https://instagram.com/ahthneeuhl/")}
           />
         </div>
-      </motion.div>
+      </div>
     </nav>
   );
 };

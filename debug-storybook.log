@@ -1,0 +1,404 @@
+[16:53:48.221] [INFO] Storybook upgrade - v10.2.9
+[16:53:48.226] [INFO] detect-projects-spinner-start: Detecting projects...
+[16:53:48.228] [DEBUG] Finding Storybook projects...
+[16:53:48.680] [DEBUG] Found 1 Storybook projects
+[16:53:48.684] [INFO] detect-projects-spinner: Detecting projects: 1 projects
+[16:53:48.684] [DEBUG] Getting Storybook data...
+[16:53:48.684] [DEBUG] Getting Storybook info...
+[16:53:48.816] [INFO] Loading main config failed as the file does not seem to be valid ESM. Trying a temporary fix, please ensure the main config is valid ESM.
+[16:53:48.836] [DEBUG] Loading main config...
+[16:53:48.836] [DEBUG] Getting stories paths...
+[16:53:48.866] [DEBUG] Getting package manager...
+[16:53:49.629] [DEBUG] Getting package.json info for /home/ahthneeuhl/build/portfolio/package.json...
+[16:53:49.629] [DEBUG] Getting Storybook version...
+[16:53:49.629] [DEBUG] Detecting CSF factory usage...
+[16:53:49.669] [DEBUG] /.storybook - Validating before version... 7.6.21
+[16:53:49.669] [DEBUG] /.storybook - Validating upgrade compatibility...
+[16:53:49.669] [DEBUG] /.storybook - Fetching NPM version information...
+[16:53:49.670] [DEBUG] Getting CLI versions from NPM for storybook...
+[16:53:49.670] [DEBUG] Executing command: pnpm info storybook version
+[16:53:49.679] [DEBUG] Getting CLI versions from NPM for storybook@next...
+[16:53:49.679] [DEBUG] Executing command: pnpm info storybook@next version
+[16:53:51.392] [DEBUG] /.storybook - Evaluating blockers...
+[16:53:51.409] [DEBUG] Getting installed version for @storybook/experimental-addon-test...
+[16:53:51.409] [DEBUG] Executing command: pnpm list "@storybook/experimental-addon-test" --json --depth=99
+[16:53:52.275] [DEBUG] Installed version for @storybook/experimental-addon-test: null
+[16:53:52.275] [INFO] detect-projects-spinner-stop: 1 project detected
+[16:53:52.275] [DEBUG] Found 1 valid projects and 0 error projects
+[16:53:52.275] [INFO] Upgrading from [1m7.6.21[22m to [1m10.2.9[22m
+[16:53:52.277] [INFO] upgrade-dependencies-task-start: Fetching versions to update package.json files..
+[16:53:52.277] [DEBUG] Updating dependencies in /.storybook...
+[16:53:52.277] [INFO] upgrade-dependencies-task: /package.json
+[16:53:52.278] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:53:52.278] [DEBUG] {
+  "upgradedDependencies": []
+}
+[16:53:52.278] [DEBUG] {
+  "upgradedDevDependencies": [
+    "@storybook/addon-links@^10.2.9",
+    "@storybook/addon-onboarding@^10.2.9",
+    "@storybook/nextjs@^10.2.9",
+    "@storybook/react@^10.2.9",
+    "eslint-plugin-storybook@^10.2.9",
+    "storybook@^10.2.9"
+  ]
+}
+[16:53:52.278] [DEBUG] {
+  "upgradedPeerDependencies": []
+}
+[16:53:52.278] [DEBUG] Getting package.json info for /home/ahthneeuhl/build/portfolio/package.json...
+[16:53:52.278] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:53:52.278] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:53:52.279] [DEBUG] Getting package.json info for /home/ahthneeuhl/build/portfolio/package.json...
+[16:53:52.279] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:53:52.279] [DEBUG] Getting CLI versions from NPM for @storybook/addon-links...
+[16:53:52.279] [DEBUG] Executing command: pnpm info @storybook/addon-links version
+[16:53:54.985] [DEBUG] Getting CLI versions from NPM for @storybook/addon-onboarding...
+[16:53:54.985] [DEBUG] Executing command: pnpm info @storybook/addon-onboarding version
+[16:53:57.014] [DEBUG] Getting CLI versions from NPM for @storybook/nextjs...
+[16:53:57.014] [DEBUG] Executing command: pnpm info @storybook/nextjs version
+[16:53:59.786] [DEBUG] Getting CLI versions from NPM for @storybook/react...
+[16:53:59.786] [DEBUG] Executing command: pnpm info @storybook/react version
+[16:54:02.017] [DEBUG] Getting CLI versions from NPM for eslint-plugin-storybook...
+[16:54:02.017] [DEBUG] Executing command: pnpm info eslint-plugin-storybook version
+[16:54:03.380] [DEBUG] Using cached version for storybook...
+[16:54:03.380] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.380] [DEBUG] Getting package.json info for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.380] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.380] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.381] [INFO] upgrade-dependencies-task-success: Updated package versions in package.json files
+[16:54:03.381] [INFO] detect-automigrations-task-start: Detecting automigrations...
+[16:54:03.382] [DEBUG] Starting automigration collection across 1 projects and 19 fixes...
+[16:54:03.382] [INFO] detect-automigrations-task: Checking automigrations for /.storybook...
+[16:54:03.382] [DEBUG] Processing project: /.storybook
+[16:54:03.382] [DEBUG] Checking fix eslintPlugin for project /.storybook...
+[16:54:03.382] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.382] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.383] [DEBUG] Checking fix addon-mdx-gfm-remove for project /.storybook...
+[16:54:03.383] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.383] [DEBUG] Checking fix addon-storysource-code-panel for project /.storybook...
+[16:54:03.383] [DEBUG] Checking fix upgrade-storybook-related-dependencies for project /.storybook...
+[16:54:03.383] [DEBUG] Checking for incompatible storybook packages...
+[16:54:03.383] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.386] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:03.386] [DEBUG] Getting installed version for @storybook/addon-essentials...
+[16:54:03.386] [DEBUG] Executing command: pnpm list "@storybook/addon-essentials" --json --depth=99
+[16:54:03.395] [DEBUG] Getting installed version for @storybook/addon-interactions...
+[16:54:03.395] [DEBUG] Executing command: pnpm list "@storybook/addon-interactions" --json --depth=99
+[16:54:03.401] [DEBUG] Getting installed version for @storybook/addon-styling...
+[16:54:03.401] [DEBUG] Executing command: pnpm list "@storybook/addon-styling" --json --depth=99
+[16:54:03.413] [DEBUG] Getting installed version for @storybook/blocks...
+[16:54:03.413] [DEBUG] Executing command: pnpm list "@storybook/blocks" --json --depth=99
+[16:54:03.436] [DEBUG] Getting installed version for @storybook/testing-library...
+[16:54:03.436] [DEBUG] Executing command: pnpm list "@storybook/testing-library" --json --depth=99
+[16:54:05.760] [DEBUG] Installed version for @storybook/testing-library: 0.2.2
+[16:54:05.760] [DEBUG] Getting CLI versions from NPM for @storybook/testing-library...
+[16:54:05.760] [DEBUG] Executing command: pnpm info @storybook/testing-library version
+[16:54:05.801] [DEBUG] Installed version for @storybook/addon-essentials: 7.6.21
+[16:54:05.801] [DEBUG] Getting CLI versions from NPM for @storybook/addon-essentials...
+[16:54:05.801] [DEBUG] Executing command: pnpm info @storybook/addon-essentials version
+[16:54:05.998] [DEBUG] Installed version for @storybook/addon-styling: 1.3.7
+[16:54:05.998] [DEBUG] Getting CLI versions from NPM for @storybook/addon-styling...
+[16:54:05.998] [DEBUG] Executing command: pnpm info @storybook/addon-styling version
+[16:54:06.197] [DEBUG] Installed version for @storybook/blocks: 7.6.21
+[16:54:06.197] [DEBUG] Getting CLI versions from NPM for @storybook/blocks...
+[16:54:06.197] [DEBUG] Executing command: pnpm info @storybook/blocks version
+[16:54:06.290] [DEBUG] Installed version for @storybook/addon-interactions: 7.6.21
+[16:54:06.290] [DEBUG] Getting CLI versions from NPM for @storybook/addon-interactions...
+[16:54:06.290] [DEBUG] Executing command: pnpm info @storybook/addon-interactions version
+[16:54:10.954] [DEBUG] Checking fix initial-globals for project /.storybook...
+[16:54:10.960] [DEBUG] Checking fix addon-globals-api for project /.storybook...
+[16:54:10.965] [DEBUG] Checking fix addon-a11y-addon-test for project /.storybook...
+[16:54:10.966] [DEBUG] Checking fix consolidated-imports for project /.storybook...
+[16:54:10.966] [DEBUG] Checking fix addon-experimental-test for project /.storybook...
+[16:54:10.966] [DEBUG] Using cached installed version for @storybook/experimental-addon-test...
+[16:54:10.966] [DEBUG] Checking fix rnstorybook-config for project /.storybook...
+[16:54:10.966] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:10.967] [DEBUG] Checking fix migrate-addon-console for project /.storybook...
+[16:54:10.967] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:10.967] [DEBUG] Checking fix nextjs-to-nextjs-vite for project /.storybook...
+[16:54:10.967] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:10.967] [DEBUG] Checking fix remove-addon-interactions for project /.storybook...
+[16:54:10.967] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:10.967] [DEBUG] Checking fix renderer-to-framework for project /.storybook...
+[16:54:10.968] [DEBUG] Checking fix remove-essential-addons for project /.storybook...
+[16:54:10.968] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:54:10.968] [DEBUG] Checking fix addon-a11y-parameters for project /.storybook...
+[16:54:10.968] [DEBUG] Checking fix remove-docs-autodocs for project /.storybook...
+[16:54:10.972] [DEBUG] Checking fix wrap-getAbsolutePath for project /.storybook...
+[16:54:10.977] [DEBUG] Checking fix fix-faux-esm-require for project /.storybook...
+[16:54:10.979] [INFO] detect-automigrations-task: 
+Automigrations detected:
+[16:54:10.982] [INFO] detect-automigrations-task: [32m[32m✔[32m upgrade-storybook-related-dependencies[39m
+[16:54:10.982] [INFO] detect-automigrations-task: [32m[32m✔[32m consolidated-imports[39m
+[16:54:10.983] [INFO] detect-automigrations-task: [32m[32m✔[32m nextjs-to-nextjs-vite[39m
+[16:54:10.983] [INFO] detect-automigrations-task: [32m[32m✔[32m remove-addon-interactions[39m
+[16:54:10.983] [INFO] detect-automigrations-task: [32m[32m✔[32m renderer-to-framework[39m
+[16:54:10.983] [INFO] detect-automigrations-task: [32m[32m✔[32m remove-essential-addons[39m
+[16:54:10.984] [INFO] detect-automigrations-task: [32m[32m✔[32m remove-docs-autodocs[39m
+[16:54:10.984] [INFO] detect-automigrations-task: [32m[32m✔[32m fix-faux-esm-require[39m
+[16:54:10.984] [INFO] detect-automigrations-task-success: 8 automigration(s) detected
+[16:59:01.052] [PROMPT] Select automigrations to run {"choice":["consolidated-imports","remove-addon-interactions","renderer-to-framework","remove-essential-addons","remove-docs-autodocs","fix-faux-esm-require"]}
+[16:59:01.052] [INFO] automigrate-/.storybook-task-start: Running automigrations for /.storybook
+[16:59:01.075] [INFO] automigrate-/.storybook-task: [32m[32m✔[32m consolidated-imports[39m
+[16:59:01.081] [DEBUG] Uninstalling @storybook/addon-interactions
+[16:59:01.081] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:01.081] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:01.082] [DEBUG] Removing '@storybook/addon-interactions' from main.js addons field.
+[16:59:01.093] [INFO] automigrate-/.storybook-task: [32m[32m✔[32m remove-addon-interactions[39m
+[16:59:01.093] [DEBUG] 
+Migrating @storybook/react to @storybook/nextjs
+[16:59:01.100] [DEBUG] Updating package.json files...
+[16:59:01.103] [INFO] automigrate-/.storybook-task: [32m[32m✔[32m renderer-to-framework[39m
+[16:59:01.108] [DEBUG] Uninstalling @storybook/addon-essentials
+[16:59:01.108] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:01.108] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:01.108] [DEBUG] Removing '@storybook/addon-essentials' from main.js addons field.
+[16:59:01.117] [DEBUG] Getting Storybook info...
+[16:59:01.123] [INFO] Loading main config failed as the file does not seem to be valid ESM. Trying a temporary fix, please ensure the main config is valid ESM.
+[16:59:01.126] [DEBUG] Loading main config...
+[16:59:01.126] [DEBUG] Getting stories paths...
+[16:59:01.127] [DEBUG] Getting package manager...
+[16:59:01.132] [DEBUG] Getting package.json info for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:01.132] [DEBUG] Getting Storybook version...
+[16:59:01.132] [DEBUG] Detecting CSF factory usage...
+[16:59:01.144] [INFO] Verifying @storybook/addon-docs
+[16:59:01.144] [DEBUG] Getting dependency version for storybook...
+[16:59:01.145] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:01.145] [INFO] Installing @storybook/addon-docs@^10.2.9
+[16:59:01.145] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:01.145] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[16:59:01.145] [DEBUG] Executing command: pnpm info @storybook/addon-docs version
+[16:59:03.484] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:03.485] [INFO] Adding '@storybook/addon-docs' to the "addons" field in /home/ahthneeuhl/build/portfolio/.storybook/main.ts
+[16:59:03.496] [INFO] automigrate-/.storybook-task: [32m[32m✔[32m remove-essential-addons[39m
+[16:59:03.497] [INFO] automigrate-/.storybook-task: 🔄 Updating [36mdocs[39m parameter in main config file...
+[16:59:03.506] [INFO] automigrate-/.storybook-task: [32m[32m✔[32m remove-docs-autodocs[39m
+[16:59:03.516] [INFO] automigrate-/.storybook-task: [32m[32m✔[32m fix-faux-esm-require[39m
+[16:59:03.516] [INFO] automigrate-/.storybook-task-success: Completed automigrations for /.storybook
+[16:59:03.516] [INFO] Installing dependencies...
+[16:59:03.517] [INFO] install-dependencies-spinner-start: Installing dependencies...
+[16:59:03.517] [DEBUG] Executing command: pnpm install
+[16:59:04.283] [INFO] Installing dependencies...: Progress: resolved 0, reused 1, downloaded 0, added 0
+
+[16:59:04.283] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 0, reu
+[16:59:04.315] [INFO] Installing dependencies...:  WARN  deprecated @storybook/addon-styling@1.3.7: This package has been split into @storybook/addon-styling-webpack and @storybook/addon-themes. More info: https://github.com/storybookjs/addon-styling
+
+[16:59:04.315] [INFO] install-dependencies-spinner: Installing dependencies...: WARN  deprecated @storybo
+[16:59:04.326] [INFO] Installing dependencies...:  WARN  deprecated @storybook/testing-library@0.2.2: In Storybook 8, this package functionality has been integrated to a new package called @storybook/test, which uses Vitest APIs for an improved experience. When upgrading to Storybook 8 with 'npx storybook@latest upgrade', you will get prompted and will get an automigration for the new package. Please migrate when you can.
+
+[16:59:04.326] [INFO] install-dependencies-spinner: Installing dependencies...: WARN  deprecated @storybo
+[16:59:05.287] [INFO] Installing dependencies...: Progress: resolved 22, reused 21, downloaded 0, added 0
+
+[16:59:05.287] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 22, re
+[16:59:06.288] [INFO] Installing dependencies...: Progress: resolved 25, reused 22, downloaded 1, added 0
+
+[16:59:06.288] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 25, re
+[16:59:07.289] [INFO] Installing dependencies...: Progress: resolved 27, reused 22, downloaded 2, added 0
+
+[16:59:07.289] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 27, re
+[16:59:08.300] [INFO] Installing dependencies...: Progress: resolved 433, reused 423, downloaded 4, added 0
+
+[16:59:08.300] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 433, r
+[16:59:09.301] [INFO] Installing dependencies...: Progress: resolved 717, reused 706, downloaded 9, added 0
+
+[16:59:09.301] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 717, r
+[16:59:10.309] [INFO] Installing dependencies...: Progress: resolved 731, reused 713, downloaded 11, added 0
+
+[16:59:10.309] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 731, r
+[16:59:11.356] [INFO] Installing dependencies...: Progress: resolved 754, reused 721, downloaded 13, added 0
+
+[16:59:11.356] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 754, r
+[16:59:12.356] [INFO] Installing dependencies...: Progress: resolved 805, reused 771, downloaded 15, added 0
+
+[16:59:12.356] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 805, r
+[16:59:13.356] [INFO] Installing dependencies...: Progress: resolved 853, reused 817, downloaded 15, added 0
+
+[16:59:13.356] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 853, r
+[16:59:14.368] [INFO] Installing dependencies...: Progress: resolved 896, reused 836, downloaded 17, added 0
+
+[16:59:14.368] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 896, r
+[16:59:15.369] [INFO] Installing dependencies...: Progress: resolved 981, reused 870, downloaded 21, added 0
+
+[16:59:15.369] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 981, r
+[16:59:16.369] [INFO] Installing dependencies...: Progress: resolved 1010, reused 899, downloaded 21, added 0
+
+[16:59:16.369] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 1010, 
+[16:59:17.370] [INFO] Installing dependencies...: Progress: resolved 1072, reused 959, downloaded 22, added 0
+
+[16:59:17.370] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 1072, 
+[16:59:18.370] [INFO] Installing dependencies...: Progress: resolved 1113, reused 1000, downloaded 22, added 0
+
+[16:59:18.370] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 1113, 
+[16:59:19.371] [INFO] Installing dependencies...: Progress: resolved 1157, reused 1044, downloaded 24, added 0
+
+[16:59:19.371] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 1157, 
+[16:59:20.371] [INFO] Installing dependencies...: Progress: resolved 1162, reused 1049, downloaded 24, added 0
+
+[16:59:20.371] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 1162, 
+[16:59:21.372] [INFO] Installing dependencies...: Progress: resolved 1172, reused 1059, downloaded 24, added 0
+
+[16:59:21.372] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 1172, 
+[16:59:23.126] [INFO] Installing dependencies...:  WARN  4 deprecated subdependencies found: glob@10.5.0, glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+
+[16:59:23.126] [INFO] install-dependencies-spinner: Installing dependencies...: WARN  4 deprecated subdep
+[16:59:23.591] [INFO] Installing dependencies...: Packages: +72 -367
++++++++++++++-------------------------------------------------------------------
+
+[16:59:23.591] [INFO] install-dependencies-spinner: Installing dependencies...: Packages: +72 -367
+++++++
+[16:59:23.656] [INFO] Installing dependencies...: Progress: resolved 1172, reused 1059, downloaded 24, added 1
+
+[16:59:23.656] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 1172, 
+[16:59:23.896] [INFO] Installing dependencies...: Progress: resolved 1172, reused 1059, downloaded 24, added 72, done
+
+[16:59:23.896] [INFO] install-dependencies-spinner: Installing dependencies...: Progress: resolved 1172, 
+[16:59:24.602] [INFO] Installing dependencies...:  WARN  Issues with peer dependencies found
+.
+├─┬ @storybook/addon-styling 1.3.7
+│ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│ ├── ✕ unmet peer react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│ ├─┬ @storybook/api 7.6.17
+│ │ └─┬ @storybook/manager-api 7.6.17
+│ │   └─┬ @storybook/theming 7.6.17
+│ │     ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│ │     └── ✕ unmet peer react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│ ├─┬ @storybook/manager-api 7.6.21
+│ │ └─┬ @storybook/theming 7.6.21
+│ │   ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│ │   └── ✕ unmet peer react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│ └─┬ @storybook/components 7.6.21
+│   ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│   ├── ✕ unmet peer react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│   ├─┬ @radix-ui/react-select 1.2.2
+│   │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-compose-refs 1.0.1
+│   │ │ └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-collection 1.0.3
+│   │ │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ ├── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ ├─┬ @radix-ui/react-context 1.0.1
+│   │ │ │ └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ └─┬ @radix-ui/react-primitive 1.0.3
+│   │ │   ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │   ├── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │   └─┬ @radix-ui/react-slot 1.0.2
+│   │ │     └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-direction 1.0.1
+│   │ │ └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-dismissable-layer 1.0.4
+│   │ │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ ├── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ ├─┬ @radix-ui/react-use-callback-ref 1.0.1
+│   │ │ │ └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ └─┬ @radix-ui/react-use-escape-keydown 1.0.3
+│   │ │   └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-focus-guards 1.0.1
+│   │ │ └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-focus-scope 1.0.3
+│   │ │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ └── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-id 1.0.1
+│   │ │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ └─┬ @radix-ui/react-use-layout-effect 1.0.1
+│   │ │   └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-popper 1.1.2
+│   │ │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ ├── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ ├─┬ @radix-ui/react-arrow 1.0.3
+│   │ │ │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ │ └── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ ├─┬ @radix-ui/react-use-rect 1.0.1
+│   │ │ │ └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ └─┬ @radix-ui/react-use-size 1.0.1
+│   │ │   └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-portal 1.0.3
+│   │ │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ └── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-use-controllable-state 1.0.1
+│   │ │ └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-visually-hidden 1.0.3
+│   │ │ ├── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ │ └── ✕ unmet peer react-dom@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ ├─┬ @radix-ui/react-use-previous 1.0.1
+│   │ │ └── ✕ unmet peer react@"^16.8 || ^17.0 || ^18.0": found 19.2.4
+│   │ └─┬ react-remove-scroll 2.5.5
+│   │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│   └─┬ use-resize-observer 9.1.0
+│     ├── ✕ unmet peer react@"16.8.0 - 18": found 19.2.4
+│     └── ✕ unmet peer react-dom@"16.8.0 - 18": found 19.2.4
+├─┬ @storybook/blocks 7.6.21
+│ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+│ └── ✕ unmet peer react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.4
+└─┬ framer-motion 10.18.0
+  ├── ✕ unmet peer react@^18.0.0: found 19.2.4
+  └── ✕ unmet peer react-dom@^18.0.0: found 19.2.4
+
+[16:59:24.602] [INFO] install-dependencies-spinner: Installing dependencies...: WARN  Issues with peer de
+[16:59:24.602] [INFO] Installing dependencies...: 
+devDependencies:
++ @storybook/addon-docs 10.2.9
+- @storybook/addon-essentials 7.6.21
+- @storybook/addon-interactions 7.6.21
+- @storybook/addon-links 7.6.21
++ @storybook/addon-links 10.2.9
+- @storybook/addon-onboarding 1.0.11
++ @storybook/addon-onboarding 10.2.9
+- @storybook/nextjs 7.6.21
++ @storybook/nextjs 10.2.9
+- @storybook/react 7.6.21
++ @storybook/react 10.2.9
+- eslint-plugin-storybook 0.6.15
++ eslint-plugin-storybook 10.2.9
+- storybook 7.6.21
++ storybook 10.2.9
+
+
+[16:59:24.602] [INFO] install-dependencies-spinner: Installing dependencies...: devDependencies:
++ @story
+[16:59:24.605] [INFO] Installing dependencies...: ╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: sharp@0.34.5.                                       │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+[16:59:24.605] [INFO] install-dependencies-spinner: Installing dependencies...: ╭ Warning ───────────────
+[16:59:24.623] [INFO] Installing dependencies...: Done in 20.9s using pnpm v10.29.3
+
+[16:59:24.623] [INFO] install-dependencies-spinner: Installing dependencies...: Done in 20.9s using pnpm 
+[16:59:24.680] [INFO] Dependencies installed
+[16:59:24.680] [INFO] install-dependencies-spinner-stop: Dependencies installed
+[16:59:24.681] [INFO] Checking the health of your project(s)..
+[16:59:24.682] [DEBUG] Using cached package.json for /home/ahthneeuhl/build/portfolio/package.json...
+[16:59:24.684] [DEBUG] Executing command: pnpm list "@storybook/*" "storybook" --json --depth=99
+[16:59:25.392] [WARN] /.storybook: 1 issue found
+[16:59:25.393] [INFO] You are currently using Storybook [1m10.2.9[22m but you have packages which are incompatible with it:
+
+- @storybook/addon-styling@1.3.7 which depends on ^7.0.12
+- @storybook/blocks@7.6.21 which depends on 7.6.21
+ Repo: https://github.com/storybookjs/storybook/tree/next/code/ui/blocks
+
+Please consider updating your packages or contacting the maintainers for compatibility details.
+
+For more details on compatibility guidance, see:
+https://github.com/storybookjs/storybook/issues/32836
+[16:59:25.394] [INFO] Storybook doctor is complete!
+[16:59:25.394] [INFO] You can always recheck the health of your project(s) by running:
+[36mnpx storybook doctor[39m
+[16:59:25.397] [INFO] [33mYour project(s) have been upgraded successfully, but some issues were found which need your attention, please check Storybook doctor logs above.[39m
+[16:59:25.401] [INFO] If you want to learn more about the automigrations that executed in your project(s), please check the following links:
+• ]8;;https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#dropped-support-for-legacy-packagesconsolidated-imports]8;;
+• ]8;;https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#essentials-addon-viewport-controls-interactions-and-actions-moved-to-coreremove-addon-interactions]8;;
+• ]8;;https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#moving-from-renderer-based-to-framework-based-configurationrenderer-to-framework]8;;
+• ]8;;https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#essentials-addon-viewport-controls-interactions-and-actions-moved-to-coreremove-essential-addons]8;;
+• ]8;;https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#mainjs-docsautodocs-is-deprecatedremove-docs-autodocs]8;;
+• ]8;;https://storybook.js.org/docs/faq#how-do-i-fix-module-resolution-in-special-environmentsfix-faux-esm-require]8;;
+[16:59:25.407] [INFO] For a full list of changes, please check our migration guide: [36mhttps://storybook.js.org/docs/releases/migration-guide?ref=upgrade[39m
+[16:59:25.413] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
+[16:59:25.431] [INFO] Loading main config failed as the file does not seem to be valid ESM. Trying a temporary fix, please ensure the main config is valid ESM.
+[16:59:25.845] [INFO] Loading main config failed as the file does not seem to be valid ESM. Trying a temporary fix, please ensure the main config is valid ESM.
+[16:59:26.004] [INFO] Loading main config failed as the file does not seem to be valid ESM. Trying a temporary fix, please ensure the main config is valid ESM.
+[16:59:27.940] [INFO] Storybook upgrade completed!

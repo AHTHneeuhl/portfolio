@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={cn(
           inter.className,
-          "h-screen px-12 bg-gradient-to-b from-primary-500 to-primary-400 flex flex-row justify-between overflow-hidden"
+          "h-screen px-12 bg-linear-to-b from-neutral-50 via-neutral-100 to-neutral-50 flex flex-row justify-between overflow-hidden",
         )}
       >
         <Intro />

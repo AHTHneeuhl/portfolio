@@ -1,7 +1,6 @@
 "use client";
 
 import { Typography } from "@/components";
-import { motion } from "framer-motion";
 
 type TProps = {
   title: string;
@@ -19,12 +18,8 @@ const Card: React.FC<TProps> = ({
   index,
 }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: index * 0.3, duration: 0.3 }}
-      layout
-      className="flex flex-col gap-4 p-6 cursor-pointer rounded-md hover:bg-gradient-to-t from-primary-300 to-primary-400 transition"
+    <div
+      className="flex flex-col gap-4 p-6 hover:shadow-lg hover:border-2 hover:scale-95 hover:border-neutral-300 cursor-pointer hover:bg-neutral-50 rounded-lg transition duration-500 ease-in-out"
       onClick={() => window.open(link)}
     >
       <Typography fontSize="md" fontWeight="semibold">
@@ -40,7 +35,7 @@ const Card: React.FC<TProps> = ({
           </Typography>
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 };
 

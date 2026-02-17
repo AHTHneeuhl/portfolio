@@ -2,7 +2,7 @@ import { forwardRef, HTMLAttributes } from "react";
 import { cva, VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
-const typographyVariants = cva("text-neutral-0", {
+const typographyVariants = cva("text-emerald-900", {
   variants: {
     fontSize: {
       xs: "text-xs",
@@ -24,7 +24,8 @@ const typographyVariants = cva("text-neutral-0", {
 });
 
 interface TypographyProps
-  extends HTMLAttributes<HTMLParagraphElement>,
+  extends
+    HTMLAttributes<HTMLParagraphElement>,
     VariantProps<typeof typographyVariants> {}
 
 const Typography: React.FC<TypographyProps> = forwardRef<

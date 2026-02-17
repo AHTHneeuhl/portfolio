@@ -1,32 +1,49 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-body {
-  color: rgb(255, 255, 255);
-  background: rgb(7, 12, 48);
+
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
 }
 
-@layer utilities {
-  .bg-gradient {
-    background: linear-gradient(
-      180deg,
-      rgba(7, 12, 48, 0.96) 0%,
-      rgba(8, 13, 55, 0.75) 100%
-    );
-  }
+@utility bg-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(7, 12, 48, 0.96) 0%,
+    rgba(8, 13, 55, 0.75) 100%
+  );
+}
 
-  .hide-scrollbar::-webkit-scrollbar {
+@utility hide-scrollbar {
+  &::-webkit-scrollbar {
     width: 0.5em;
   }
 
-  .hide-scrollbar::-webkit-scrollbar-thumb {
+  &::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0.25em;
   }
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For IE and Edge */
+}
 
-  .hide-scrollbar {
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For IE and Edge */
+@layer utilities {
+  body {
+    color: rgb(255, 255, 255);
+    background: rgb(7, 12, 48);
   }
 }
