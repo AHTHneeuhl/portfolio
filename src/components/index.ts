@@ -4,3 +4,4 @@ export { default as Typography } from "./typography";
 export { default as AHTHneeuhl } from "./ahthneeuhl";
 export { default as Card } from "./card";
 export { default as Works } from "./works";
+export { default as Experiences } from "./experiences";
