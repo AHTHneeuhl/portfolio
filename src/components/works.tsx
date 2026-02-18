@@ -1,26 +1,32 @@
 "use client";
 
-
 import { Card } from "@/components";
-import works from "@/config/works";
+import projects from "@/config/projects";
 
-const Works: React.FC = () => {
+type TProps = {
+  title: string;
+  description: string;
+  link: string;
+  techStack: string[];
+  image: string;
+  index: number;
+};
+
+const Projects: React.FC = () => {
   return (
-    
-      <div className="py-8 px-6 flex flex-col gap-6">
-        {works.map(({ name, description, source, techStack }, index) => (
-          <Card
-            key={name}
-            title={name}
-            description={description}
-            link={source}
-            techStack={techStack}
-            index={index}
-          />
-        ))}
-      </div>
-    
+    <div className="py-8 px-6 flex flex-col gap-4">
+      {projects.map(({ id, title, description, link, image, techStack }) => (
+        <Card
+          key={id}
+          title={title}
+          description={description}
+          link={link}
+          techStack={techStack}
+          image={image}
+        />
+      ))}
+    </div>
   );
 };
 
-export default Works;
+export default Projects;
